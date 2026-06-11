@@ -165,6 +165,9 @@ docker service ps nginx
 docker service ps httpd
 ```
 
+<img width="1514" height="362" alt="image" src="https://github.com/user-attachments/assets/5ef6d4e1-9d57-43eb-a975-1aff6d5368b7" />
+
+
 ## Demonstrate service discovery and cross-node communication
 
 Docker Swarm provides service discovery through an embedded DNS system, and services on the same swarm network can resolve each other by service name.
@@ -183,6 +186,10 @@ Inside the container, test DNS-based access:
 curl nginx
 curl httpd
 ```
+<img width="1136" height="244" alt="image" src="https://github.com/user-attachments/assets/aaad6846-6e45-453c-866e-b8b817511ee8" />
+
+<img width="742" height="590" alt="image" src="https://github.com/user-attachments/assets/c475604b-bf72-4d9c-8973-9fdcdd01903f" />
+
 
 Expected result:
 
